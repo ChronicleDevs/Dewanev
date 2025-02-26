@@ -7,7 +7,7 @@ const connection = require('./src/database')
 const csurf = require('csurf')
 const app = express();
 const port = process.env.PORT || 3000;
-
+const path = require("path");
 // Connect to MySQL
 
 // Use Middleware

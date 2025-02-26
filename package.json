@@ -1,5 +1,5 @@
 {
-  "name": "dewanev",
+  "name": "Dewanev | Dewan Evaluasi DPP",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -7,7 +7,7 @@
     "start": "nodemon main.js",
     "tailwind:css": "npx tailwindcss -i ./src/tailwind.css -o ./public/styles/styles.css --watch"
   },
-  "author": "",
+  "author": "kyrajagula",
   "license": "ISC",
   "description": "",
   "dependencies": {

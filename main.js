@@ -46,8 +46,8 @@ app.use((req, res, next) => {
 });
 
 
-
 app.use(express.static('./public'))
+app.set("views", path.join(__dirname, "views"));
 // Template Engine
 app.set('view engine', 'ejs');
 

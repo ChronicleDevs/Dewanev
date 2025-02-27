@@ -45,7 +45,7 @@ app.use((req, res, next) => {
     next();
 });
 
-app.set("views", path.join(__dirname, "views"));
+app.set("views", "/var/task/views");
 app.use(express.static('./public'))
 
 // Template Engine
